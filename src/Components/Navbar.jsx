@@ -64,7 +64,7 @@ const Navbar = () => {
             <Link to="/"> Contact </Link>
             <Link to="/"> Services </Link>
             <Link to="/"> Faq</Link>
-            <Link to="/Dashboard"> Dashboard</Link>
+            <Link to="/Dashhome"> Dashboard</Link>
           </div>
           <div className='flex flex-col'>
             <button className='my-6'>Search</button>
