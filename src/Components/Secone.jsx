@@ -7,7 +7,7 @@ const Secone = () => {
         <div className="w-full bg-black mx-auto py-16 px-4 font-Montserrat">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 text-white mt-10">
                 <div className="md:px-4">
-                    <h1 className="text-6xl font-bold">What does logo <span className="text-yellow-400">design</span> cost?</h1>
+                    <h1 className="text-6xl font-bold mobile:text-3xl">What does logo <span className="text-yellow-400">design</span> cost?</h1>
                     <p className="py-9 text-xl">
                         Recieve lots of creative contents from our designers
                         at kani creative. We have 3 fixed plans to suit your project budjet

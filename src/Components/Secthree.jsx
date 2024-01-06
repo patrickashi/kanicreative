@@ -6,13 +6,13 @@ import verified from "../assets/verified.png";
 const Secthree = () => {
     return ( 
         <div className="w-full bg-black text-white py-16 px-4 border-b-2 border-[#1f2937] font-Montserrat">
-            <div className="grid md:grid-cols-2 ">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 ">
                 <div>
-                    <h1 className="text-3xl font-bold py-16 px-10 text-center">Trusted and known by Business owners from around the world</h1>
+                    <h1 className="text-3xl font-bold py-16 px-10 mobile:text-xl text-center">Trusted and known by Business owners from around the world</h1>
                 </div>
 
-                <div className="">
-                    <div className="bg-white text-black py-8 px-4 rounded-2xl px-16 mx-14 ">
+                <div className="w-full">
+                    <div className=" bg-white text-black py-8 px-4  rounded-2xl px-16 sm:mx-10 md:mx-10 lg:mx-10 xl:mx-10 2xl:mx-10">
                         {/* card */}
                         <p className="text-center">
                             The speed in which they came up a concept for me with the 

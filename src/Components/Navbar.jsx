@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import logo1 from "../assets/logo1.jpg"
 import { BsPerson } from 'react-icons/bs';
@@ -64,7 +64,7 @@ const Navbar = () => {
             <Link to="/"> Contact </Link>
             <Link to="/"> Services </Link>
             <Link to="/"> Faq</Link>
-            <Link to="/Dashhome"> Dashboard</Link>
+            <NavLink to="/Dashhome"> Dashboard</NavLink>
           </div>
           <div className='flex flex-col'>
             <button className='my-6'>Search</button>
