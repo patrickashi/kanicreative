@@ -2,6 +2,7 @@ import React from "react"
 
 import chrtmas1 from "../assets/chrtmas1.jpg";
 import verified from "../assets/verified.png";
+import b from "../assets/b.jpg"
 
 const Secthree = () => {
     return ( 
@@ -20,7 +21,7 @@ const Secthree = () => {
                             and great value
                         </p>
                         <div className="flex py-6 md:justify-center">
-                            <img className="w-11  rounded-full " src={chrtmas1} alt="" />
+                            <img className="w-12  rounded-full " src={b} alt="" />
                             <div className="px-2">
                                 <p>Victor Fatima</p>
                                 <div className="flex">
