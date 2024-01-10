@@ -1,6 +1,7 @@
 import React from "react"
 
-import star from "../assets/star.png";
+
+import { MdOutlineStar } from "react-icons/md";
 
 const Secone = () => {
     return ( 
@@ -31,13 +32,15 @@ const Secone = () => {
                         </select>
                     </div>
 
-                    <div className="flex pt-6 ">
-                        <div className="flex h-5 mr-2">
-                            <img className="w-5" src={star} alt="" />
-                            <img className="w-5" src={star} alt="" />
-                            <img className="w-5" src={star} alt="" />
-                            <img className="w-5" src={star} alt="" />
-                            <img className="w-5" src={star} alt="" />
+                    <div className="flex pt-6 gap-2 ">
+                        <div className="flex ">
+                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
+                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
+                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
+                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
+                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
+                           
+                            
                         </div>
                         <p className="text-yellow-500">98% happy customers from</p>
                     </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import Ordernav from './Ordernav'
-import SearchIcon from '@mui/icons-material/Search';
+import { MdOutlineSearch } from 'react-icons/md';
 
 const Tasks = () => {
   return (
@@ -12,7 +12,7 @@ const Tasks = () => {
             <div className='relative'>
                 <input type="text" placeholder='Logo type, Business Cards, Social media graphics..'
                 className='text-center w-[670px] rounded-md py-3 outline-none' />
-                <SearchIcon className='w-20 absolute right-2 top-3 text-gray-400 '/>
+                <MdOutlineSearch className='w-20 absolute right-2 top-3 text-gray-400 '/>
             </div>
             <i className='font-bold py-4'>No Task to show</i>
 

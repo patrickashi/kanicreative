@@ -1,6 +1,6 @@
 import React from 'react';
 import Ordernav from './Ordernav';
-import SearchIcon from '@mui/icons-material/Search';
+import { MdOutlineSearch } from 'react-icons/md';
 
 const Specialoffer = () => {
   return (
@@ -45,7 +45,7 @@ const Specialoffer = () => {
                     <div className='relative'>
                         <input type="text" placeholder='Search...' className='rounded-sm pl-9 py-1 px-2 text-[#059669]' />
                         <div>
-                            <SearchIcon className='absolute w-20 left-2 top-1 text-gray-400'/>
+                            <MdOutlineSearch className='absolute w-20 left-2 top-1 text-gray-400'/>
                         </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { HiOutlineMenu } from 'react-icons/hi'
-import NotificationsActiveIcon from '@mui/icons-material/NotificationsActive';
-import Badge from '@mui/material/Badge';
+
+import { MdNotifications } from 'react-icons/md';
 
 const Ordernav = () => {
   return (
@@ -14,9 +14,11 @@ const Ordernav = () => {
 
             <div className='flex gap-3'>
                 <div>
-                    <Badge badgeContent={4} color='primary'>
-                        <NotificationsActiveIcon className='w-20 '/>
-                    </Badge>
+                    {/* <Badge badgeContent={4} color='primary'> */}
+                        <MdNotifications className='w-20 '/>
+                    {/* </Badge> */}
+
+                    
                 </div>
                 <div className='rounded-full bg-gray-200 w-8 h-8 flex items-center justify-center'>P</div>
             </div>

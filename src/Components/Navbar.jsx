@@ -28,10 +28,9 @@ const Navbar = () => {
         {/* <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>BEACHES.</h1> */}
         <img className='text-white bg-white w-20 md:ml-3 ' size={20} src={logo1} alt="/" />
       </div>
-      <ul className='hidden md:flex gap-4'>
+      <ul className='mobile:hidden 2xl:flex xl:flex lg:flex md:flex gap-4'>
         <Link to="/"> Home </Link>
-      
-        <Link to="/create"> About</Link>
+        <Link to=""> About</Link>
         <Link to="/"> Contact </Link>
         <Link to="/"> Services </Link>
         <Link to="/"> Faq</Link>

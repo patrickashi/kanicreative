@@ -1,7 +1,6 @@
 import React from "react"
 import verified from "../assets/verified.png";
-
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
+import { MdDone } from "react-icons/md";
 
 const Sectwo = () => {
     return ( 
@@ -19,43 +18,43 @@ const Sectwo = () => {
                         <ul className="px-10 text-center">
                             <div className="flex gap-2 ">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> 1 day Delivery</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Unlimited Revisions</li>
                             </div>
                             <div className="flex gap-2">
                                 <div>
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Vector files</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li>Multe-versions</li>   
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Rated Designers</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Copyright ownership</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Copyright File</li>   
                             </div>
@@ -74,43 +73,43 @@ const Sectwo = () => {
                         <ul className="px-10 text-center">
                         <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> 1 day Delivery</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Unlimited Revisions</li>
                             </div>
                             <div className="flex gap-2">
                                 <div>
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Vector files</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li>Multe-versions</li>   
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Rated Designers</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Copyright ownership</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Copyright File</li>   
                             </div>
@@ -130,43 +129,43 @@ const Sectwo = () => {
                         <ul className="px-10 text-center">
                         <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> 1 day Delivery</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Unlimited Revisions</li>
                             </div>
                             <div className="flex gap-2">
                                 <div>
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Vector files</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li>Multe-versions</li>   
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Rated Designers</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Copyright ownership</li>  
                             </div>
                             <div className="flex gap-2">
                                 <div> 
-                                    <CheckCircleOutlineIcon className="text-white bg-[#059669] rounded-full"/>
+                                    <MdDone className="text-[#059669]" />
                                 </div>
                                 <li> Copyright File</li>   
                             </div>

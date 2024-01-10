@@ -33,7 +33,7 @@ function App() {
                 <Ordersp/>
               </Route>
               <Route path="/Dashhome">
-                <Dashhome />
+                <Dashhome/>
               </Route>
               <Route path="/Tasksp">
                 <Tasksp />
