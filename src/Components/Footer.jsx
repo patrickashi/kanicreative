@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="lg:w-[800px] grid mx-auto">
                 <div>
                     <img className="w-20 mx-auto py-2" src={logo1} alt="" />
-                    <p className="text-center text-gray-300">
+                    <p className="text-center text-gray-300 text-xs">
                         Kani creative is a design agency that helps
                         companies and businesses get a design solution
                     </p>
@@ -21,9 +21,9 @@ const Footer = () => {
                     <img className="w-4" src={newmoon} alt="/" /> 
                 </div>
                 
-                <div>
-                    <p className="text-center text-lg text-gray-200"> ©2023 Copyright Kani Creative</p>
-                    <ul className="flex text-center justify-center text-lg text-gray-200 gap-2">
+                <div className="text-xs">
+                    <p className="text-center text-gray-200"> ©2024 Copyright Kani Creative</p>
+                    <ul className="flex text-center justify-center text-gray-200 gap-2">
                         <li>Terms & Conditions |</li>
                         <li >Privacy</li>
                     </ul>
