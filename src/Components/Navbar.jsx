@@ -25,7 +25,6 @@ const Navbar = () => {
   return (
     <div className='flex w-full font-Montserrat justify-between items-center h-20 px-4 absolute bg-black z-10 text-white'>
       <div>
-        {/* <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'}>BEACHES.</h1> */}
         <img className='text-white bg-white w-20 md:ml-3 ' size={20} src={logo1} alt="/" />
       </div>
       <ul className='hidden mobile:hidden 2xl:flex xl:flex lg:flex md:flex gap-4'>
@@ -40,9 +39,9 @@ const Navbar = () => {
       <div className='flex md:flex'>
         <button className='border rounded-md px-4 py-1 border-[#059669] mr-6'>Login</button>
         {/* Hamburger */}
-        <div onClick={handleNav} className='md:hidden z-10 cursor-pointer'>
+        <div onClick={handleNav} className='md:hidden lg-hidden xl-hidden 2xl-hidden z-10 cursor-pointer'>
         {nav ? <AiOutlineClose className='text-white' size={20} /> : <HiOutlineMenu size={20} />}
-      </div>
+        </div>
 
       </div>
 
