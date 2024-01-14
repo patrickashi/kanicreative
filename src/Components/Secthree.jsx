@@ -9,7 +9,7 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 const Secthree = () => {
     return ( 
-        <div className="w-full bg-black text-white py-16 px-4 border-b-2 border-[#1f2937] font-Montserrat">
+        <div className="w-full bg-black text-white py-16 px-4 border-b border-gray-900 font-Montserrat">
              <div>
                     <h1 className="text-3xl font-bold py-16 px-10 mobile:text-xl text-center">Trusted and known by Business owners from around the world</h1>
             </div>
