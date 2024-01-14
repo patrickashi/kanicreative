@@ -5,7 +5,7 @@ import logo1 from "../assets/logo1.jpg";
 
 const Footer = () => {
     return ( 
-        <div className="w-full bg-black py-16 pb-0 px-4 text-xl text-white font-Montserrat">
+        <div className="w-full bg-black py-6 px-4 text-xl text-white font-Montserrat">
             <div className="lg:w-[800px] grid mx-auto">
                 <div>
                     <img className="w-20 mx-auto py-2" src={logo1} alt="" />

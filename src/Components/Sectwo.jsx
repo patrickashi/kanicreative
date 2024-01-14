@@ -13,7 +13,7 @@ const Sectwo = () => {
                         {/* card */}
                         <p className="text-center text-bold text-3xl text-[#059669]">Starter</p>
                         <p className="text-center text-bold text-3xl text-[#ca8a04]">$100</p>
-                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-2xl md:text-xl">Kick Start your Business Today!</p>
+                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
                         <p className="py-4 text-center text-2xl">What you get with starter:</p>
                         <ul className="px-10 text-center">
                             <div className="flex gap-2 ">
@@ -68,7 +68,7 @@ const Sectwo = () => {
                         {/* card */}
                         <p className="text-center text-bold text-3xl text-[#059669]">Growth</p>
                         <p className="text-center text-bold text-3xl text-[#ca8a04]">$100</p>
-                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-2xl md:text-xl">Kick Start your Business Today!</p>
+                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
                         <p className="py-4 text-center text-2xl">What you get with starter:</p>
                         <ul className="px-10 text-center">
                         <div className="flex gap-2">
@@ -124,7 +124,7 @@ const Sectwo = () => {
                         {/* card */}
                         <p className="text-center text-bold text-3xl text-[#059669]">Business</p>
                         <p className="text-center text-bold text-3xl text-[#ca8a04]">$100</p>
-                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-2xl md:text-xl">Kick Start your Business Today!</p>
+                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
                         <p className="py-4 text-center text-2xl">What you get with starter:</p>
                         <ul className="px-10 text-center">
                         <div className="flex gap-2">
