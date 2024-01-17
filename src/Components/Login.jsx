@@ -16,7 +16,7 @@ const Login = () => {
                 <p className='text-center my-3'>Do not have an account yet? <Link to="/signup"> Sign up </Link></p>
                 <input type='text' placeholder='enter email' className='border border-black rounded-md w-full px-4 py-2 focus:bg-gray-100'/>
                 <input type='text' placeholder='Password' className='border border-black rounded-md w-full my-3 px-4 py-2 focus:bg-gray-100'/>
-                <div className='flex flex-row justify-between'>
+                <div className='flex flex-row justify-between mobile:text-sm'>
                     <div>
                         <input type='checkbox' id='myCheckbox'/>
                         <label htmlFor="myCheckbox" className='ml-1'>Remember me</label>
