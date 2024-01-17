@@ -1,8 +1,5 @@
 import React from "react"
-
-import chrtmas1 from "../assets/chrtmas1.jpg";
 import verified from "../assets/verified.png";
-import b from "../assets/b.jpg"
 import profile2 from "../assets/profile2.avif";
 import profile1 from "../assets/profile1.webp";
 import { FaQuoteLeft } from "react-icons/fa";

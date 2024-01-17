@@ -5,6 +5,7 @@ import Sectwo from '../Components/Sectwo'
 import Secthree from '../Components/Secthree'
 import Footer from '../Components/Footer'
 
+
 const Home = () => {
   return (
     <div>

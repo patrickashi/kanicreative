@@ -13,6 +13,7 @@ import {
   FaPinterest,
   FaYoutube,
 } from 'react-icons/fa';
+import Login from './Login';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -20,6 +21,12 @@ const Navbar = () => {
   const handleNav = () => {
     setNav(!nav);
     setLogo(!logo)
+  };
+
+  const [isLoginClicked, setLoginClicked] = useState(false);
+
+  const handleLoginClick = () => {
+    setLoginClicked(true);
   };
 
   return (
@@ -33,11 +40,16 @@ const Navbar = () => {
         <Link to="/"> Contact </Link>
         <Link to="/"> Services </Link>
         <Link to="/"> Faq</Link>
-        <Link to="/Dashhome"> Dashboard</Link>
+        <Link to="Dashhome"> Dashboard</Link>
         <Link to="/Signup"> Signup</Link>
       </ul>
       <div className='flex md:flex'>
-        <button className='border rounded-md px-4 py-1 border-[#059669] mr-6'>Login</button>
+        <div>
+            <Link to="/login">
+                <button className='border rounded-md px-4 py-1 border-[#059669] mr-6' onClick={handleLoginClick}>Login</button>
+            </Link>
+            {/* {isLoginClicked &&  <Login />} */}
+        </div>
         {/* Hamburger */}
         <div onClick={handleNav} className='md:hidden lg-hidden xl-hidden 2xl-hidden z-10 cursor-pointer'>
         {nav ? <AiOutlineClose className='text-white' size={20} /> : <HiOutlineMenu size={20} />}

@@ -1,4 +1,6 @@
 import React from "react"
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from "./Components/Navbar";
 import Secone from "./Components/Secone";
 import Sectwo from "./Components/Sectwo";
@@ -6,7 +8,7 @@ import Secthree from "./Components/Secthree";
 import Footer from "./Components/Footer";
 import Home from "./pages/Home";
 
-import { BrowserRouter as Router, Route,  Switch } from 'react-router-dom';
+
 import Create from "./pages/Create";
 import Dashboard from "./pages/Ordersp";
 import Signup from "./pages/Signup";
@@ -15,6 +17,7 @@ import Ordernav from "./Components/Ordernav";
 import Orders from "./Components/Orders";
 import Ordersp from "./pages/Ordersp";
 import Tasksp from "./pages/Tasksp";
+import Login from "./Components/Login";
 
 function App() {
   return (
@@ -22,24 +25,20 @@ function App() {
         <div className="App">
           <Navbar />
           <div className="content">
-            <Switch>
-              <Route index path="/">
-                <Home />
-              </Route>
-              <Route path="/Signup">
-                <Signup />
-              </Route>
-              <Route path="/Ordersp">
-                <Ordersp/>
-              </Route>
-              <Route path="/Dashhome">
-                <Dashhome/>
-              </Route>
-              <Route path="/Tasksp">
-                <Tasksp />
-              </Route>
+            <Routes>
+              <Route index path="/" element={<Home />}/>
+              <Route path="/Signup" element={<Signup />}/>
+              <Route path="/login" element={<Login />} /> 
+              <Route path="/Ordersp" />
               
-            </Switch>
+              {/* <Route path="/Dashhome" component={Dashhome}>
+                <Dashhome/>
+              </Route> */}
+              <Route path="/Dashhome" element={<Dashhome />}/>
+
+              <Route path="/Tasksp" />
+              
+            </Routes>
           </div>
 
         </div>
