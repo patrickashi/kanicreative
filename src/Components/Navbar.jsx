@@ -77,7 +77,9 @@ const Navbar = () => {
             <NavLink to="/Dashhome"> Dashboard</NavLink>
           </div>
           <div className='flex flex-col '>
-            <button className='my-3 rounded-lg border border-[#059669] py-2'>Sign up</button>
+            <Link to="/Signup">
+              <button className='my-3 rounded-lg border border-[#059669] py-2 w-full'>Sign up</button>
+            </Link>
             <button className='rounded-lg border border-[#059669] py-2'>Account</button>
           </div>
           <div className='flex justify-start gap-6 my-6 '>
