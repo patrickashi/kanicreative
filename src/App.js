@@ -21,6 +21,11 @@ import Login from "./Components/Login";
 import Ourworkp from "./pages/Ourworkp";
 import Logosp from "./pages/Logosp";
 import Allp from "./pages/Allp";
+import Webdesignp from "./pages/Webdesignp";
+import Printmediap from "./pages/Printmediap";
+import Packagedesignp from "./pages/Packagedesignp";
+import Brandidentityp from "./pages/Brandidentityp";
+
 
 function App() {
   return (
@@ -43,7 +48,11 @@ function App() {
 
               <Route path="/Ourworkp" element={<Ourworkp />}/>
               <Route path="/Logosp" element={<Logosp />} />
-              <Route path="Allp" element={<Allp />} />
+              <Route path="/Allp" element={<Allp />} />
+              <Route path="/Webdesignp" element={<Webdesignp />}/>
+              <Route path="/Printmediap" element={<Printmediap />}/>
+              <Route path="/Packagedesignp" element={<Packagedesignp />}/>
+              <Route path="/Brandidentityp" element={<Brandidentityp />}/>
               
             </Routes>
           </div>
