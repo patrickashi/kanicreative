@@ -27,4 +27,7 @@
   .center-text {
     margin: 0 10px; /* Adjust the margin as needed */
   }
+  .all :active {
+    background-color: green;
+  }
   

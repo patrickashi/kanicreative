@@ -8,9 +8,9 @@ const Login = () => {
     <div className='pt-20 w-full h-screen bg-gray-200 '>
         
         <div className='flex flex-col justify-center items-center border-4 rounded-md my-6 mobile:mx-8'>
-            <div className='w-20 text-center items-center'>
+            {/* <div className='w-20 text-center items-center'>
                 <img src={logo1} size={20} alt="logo" className='' />
-            </div>
+            </div> */}
             <div className='bg-white rounded-md px-8 my-6 py-12'>
                 <p className='text-center font-bold text-xl'>Login</p>
                 <p className='text-center my-3'>Do not have an account yet? <Link to="/signup"> Sign up </Link></p>

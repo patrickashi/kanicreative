@@ -18,6 +18,9 @@ import Orders from "./Components/Orders";
 import Ordersp from "./pages/Ordersp";
 import Tasksp from "./pages/Tasksp";
 import Login from "./Components/Login";
+import Ourworkp from "./pages/Ourworkp";
+import Logosp from "./pages/Logosp";
+import Allp from "./pages/Allp";
 
 function App() {
   return (
@@ -37,6 +40,10 @@ function App() {
               <Route path="/Dashhome" element={<Dashhome />}/>
 
               <Route path="/Tasksp" />
+
+              <Route path="/Ourworkp" element={<Ourworkp />}/>
+              <Route path="/Logosp" element={<Logosp />} />
+              <Route path="Allp" element={<Allp />} />
               
             </Routes>
           </div>

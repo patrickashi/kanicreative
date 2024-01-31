@@ -32,16 +32,18 @@ const Navbar = () => {
   return (
     <div className='flex w-full font-Montserrat justify-between items-center h-20 px-4 absolute bg-black z-10 text-white'>
       <div className='2xl:ml-16 xl:ml-16 lg:ml-10'>
-        <img className='text-white bg-white w-20 md:ml-3 ' size={20} src={logo1} alt="/" />
+        <Link to="/">
+          <img className='text-white bg-white w-20 md:ml-3 ' size={20} src={logo1} alt="/" />
+        </Link>
       </div>
       <ul className='hidden mobile:hidden 2xl:flex xl:flex lg:flex md:flex gap-4'>
-        <Link to="/" > Home </Link>
-        <Link to=""> About</Link>
-        <Link to="/"> Contact </Link>
-        <Link to="/"> Services </Link>
-        <Link to="/"> Faq</Link>
-        <Link to="Dashhome"> Dashboard</Link>
-        <Link to="/Signup"> Signup</Link>
+        <Link > Services </Link>
+        <Link to=""> Express</Link>
+        <Link to="/"> How It Works </Link>
+        <Link to="/"> Pricing </Link>
+        <Link to="Ourworkp"> Our Work</Link>
+        <Link to="Dashhome"> -</Link>
+        <Link to="/Signup"> Get Started</Link>
       </ul>
       <div className='flex md:flex'>
         <div>
@@ -69,12 +71,13 @@ const Navbar = () => {
             <img src={logo1} size={20} className='w-20' alt="image" />
           </div>
           <div className='flex flex-col gap-3 py-12'>
-            <Link to="/" >Home</Link>
-            <Link to="/create"> About</Link>
-            <Link to="/"> Contact </Link>
-            <Link to="/"> Services </Link>
-            <Link to="/"> Faq</Link>
-            <NavLink to="/Dashhome"> Dashboard</NavLink>
+              <Link > Services </Link>
+              <Link to=""> Express</Link>
+              <Link to="/"> How It Works </Link>
+              <Link to="/"> Pricing </Link>
+              <Link to="Ourworkp"> Our Work</Link>
+              <Link to="Dashhome"> -</Link>
+              <Link to="/Signup"> Get Started</Link>
           </div>
           <div className='flex flex-col '>
             <Link to="/Signup">
