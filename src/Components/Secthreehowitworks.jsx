@@ -4,9 +4,9 @@ import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const Secthreehowitworks = () => {
   return (
-    <div className='py-8  bg-white'>
+    <div className='py-8  bg-white '>
         <div className='mobile:grid 2xl:grid-cols-2 2xl:mx-20 mobile:gap-4 mobile:mx-4 px-4 py-6 text-white bg-black rounded-lg'>
-            <div className='flex items-center'>
+            <div className='flex items-center gap-2'>
                 <div className=''>
                     <CgNotes size={80}/>
                 </div>
@@ -16,7 +16,7 @@ const Secthreehowitworks = () => {
                 </div>
             </div>
 
-            <div className='flex items-center'>
+            <div className='flex items-center gap-2'>
                 <div className=''>
                     <IoMdCheckmarkCircleOutline size={80} />
                 </div>
