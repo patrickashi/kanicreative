@@ -6,7 +6,7 @@ const Howitworks = () => {
         <div className='mt-4'>
             <h1 className='font-bold text-[40px]'>How it works</h1>
             <p className='mb-6'>Our professional designs help attract your customers and
-                Surpass the competition. We have revolutionalize the design process by making it similar and hassle-free.
+                Surpass the competition. We have revolutionalized the design process by making it similar and hassle-free.
             </p>
         </div>
     </div>
