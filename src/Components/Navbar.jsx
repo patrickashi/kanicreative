@@ -39,19 +39,20 @@ const Navbar = () => {
       <ul className='hidden mobile:hidden 2xl:flex xl:flex lg:flex md:flex gap-4'>
         <Link > Services </Link>
         <Link to=""> Express</Link>
-        <Link to="/"> How It Works </Link>
+        <Link to="/Howitworksp"> How It Works </Link>
         <Link to="/"> Pricing </Link>
-        <Link to="Ourworkp"> Our Work</Link>
+        <Link to="/Ourworkp"> Our Work</Link>
         <Link to="Dashhome"> -</Link>
         <Link to="/Signup"> Get Started</Link>
       </ul>
       <div className='flex md:flex'>
         <div>
             <Link to="/login">
-                <button className='border rounded-md px-4 py-1 border-[#059669] mr-6' onClick={handleLoginClick}>Login</button>
+                <button className='border rounded-md px-4 py-1 border-[#059669] mr-2' onClick={handleLoginClick}>Login</button>
             </Link>
             {/* {isLoginClicked &&  <Login />} */}
         </div>
+
         {/* Hamburger */}
         <div onClick={handleNav} className='md:hidden lg-hidden xl-hidden 2xl-hidden z-10 cursor-pointer'>
         {nav ? <AiOutlineClose className='text-white' size={20} /> : <HiOutlineMenu size={20} />}
@@ -70,14 +71,14 @@ const Navbar = () => {
           <div>
             <img src={logo1} size={20} className='w-20' alt="image" />
           </div>
-          <div className='flex flex-col gap-3 py-12'>
+          <div className='flex flex-col gap-3 py-12 '>
               <Link > Services </Link>
-              <Link to=""> Express</Link>
-              <Link to="/"> How It Works </Link>
-              <Link to="/"> Pricing </Link>
-              <Link to="Ourworkp"> Our Work</Link>
-              <Link to="Dashhome"> -</Link>
-              <Link to="/Signup"> Get Started</Link>
+              <Link to="" className='my-2'> Express</Link>
+              <Link to="/Howitworksp" className='my-2'> How It Works </Link>
+              <Link to="/" className='my-2'> Pricing </Link>
+              <Link to="/Ourworkp" className='my-2'> Our Work</Link>
+              <Link to="Dashhome" className='my-2'>.</Link>
+              <Link to="/Signup" className='my-2'> Get Started</Link>
           </div>
           <div className='flex flex-col '>
             <Link to="/Signup">

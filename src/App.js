@@ -25,6 +25,7 @@ import Webdesignp from "./pages/Webdesignp";
 import Printmediap from "./pages/Printmediap";
 import Packagedesignp from "./pages/Packagedesignp";
 import Brandidentityp from "./pages/Brandidentityp";
+import Howitworksp from "./pages/Howitworksp";
 
 
 function App() {
@@ -46,13 +47,14 @@ function App() {
 
               <Route path="/Tasksp" />
 
-              <Route path="/Ourworkp" element={<Ourworkp />}/>
+              <Route path="/Ourworkp" element={<Allp />}/>
               <Route path="/Logosp" element={<Logosp />} />
               <Route path="/Allp" element={<Allp />} />
               <Route path="/Webdesignp" element={<Webdesignp />}/>
               <Route path="/Printmediap" element={<Printmediap />}/>
               <Route path="/Packagedesignp" element={<Packagedesignp />}/>
               <Route path="/Brandidentityp" element={<Brandidentityp />}/>
+              <Route path="/Howitworksp" element={<Howitworksp />} />
               
             </Routes>
           </div>
