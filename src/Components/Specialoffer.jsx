@@ -4,7 +4,7 @@ import { MdOutlineSearch } from 'react-icons/md';
 
 const Specialoffer = () => {
   return (
-    <div className='pt-20 w-full bg-gray-200'>
+    <div className='pt-20 w-full bg-gray-200 font-Montserrat'>
         <Ordernav />
         <div>
             <div className='bg-white my-4 mx-16 py-6 px-8 rounded-md'>

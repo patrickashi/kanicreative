@@ -5,7 +5,7 @@ import Signup from '../pages/Signup';
 
 const Login = () => {
   return (
-    <div className='pt-20 w-full h-screen bg-gray-200 '>
+    <div className='pt-20 w-full h-screen bg-gray-200 font-Montserrat'>
         
         <div className='flex flex-col justify-center items-center border-4 rounded-md my-6 mobile:mx-8'>
             {/* <div className='w-20 text-center items-center'>

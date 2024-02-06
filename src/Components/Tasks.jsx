@@ -4,7 +4,7 @@ import { MdOutlineSearch } from 'react-icons/md';
 
 const Tasks = () => {
   return (
-    <div className='pt-20 w-full bg-gray-200'>
+    <div className='pt-20 w-full bg-gray-200 font-Montserrat'>
         <Ordernav />
         <div className='flex justify-center items-center flex-col py-16'>
             <p className='text-4xl '>What do you need?</p>

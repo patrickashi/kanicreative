@@ -26,6 +26,7 @@ import Printmediap from "./pages/Printmediap";
 import Packagedesignp from "./pages/Packagedesignp";
 import Brandidentityp from "./pages/Brandidentityp";
 import Howitworksp from "./pages/Howitworksp";
+import Aboutp from "./pages/Aboutp";
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
               <Route path="/Packagedesignp" element={<Packagedesignp />}/>
               <Route path="/Brandidentityp" element={<Brandidentityp />}/>
               <Route path="/Howitworksp" element={<Howitworksp />} />
+              <Route path="/Aboutp" element={<Aboutp />} />
               
             </Routes>
           </div>

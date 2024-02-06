@@ -42,6 +42,7 @@ const Navbar = () => {
         <Link to="/Howitworksp"> How It Works </Link>
         <Link to="/"> Pricing </Link>
         <Link to="/Ourworkp"> Our Work</Link>
+        <Link to="/Aboutp"> About us</Link>
         <Link to="Dashhome"> -</Link>
         <Link to="/Signup"> Get Started</Link>
       </ul>
@@ -77,6 +78,7 @@ const Navbar = () => {
               <Link to="/Howitworksp" className='my-2'> How It Works </Link>
               <Link to="/" className='my-2'> Pricing </Link>
               <Link to="/Ourworkp" className='my-2'> Our Work</Link>
+              <Link to="/Aboutp" className='my-2'> About us</Link>
               <Link to="Dashhome" className='my-2'>.</Link>
               <Link to="/Signup" className='my-2'> Get Started</Link>
           </div>

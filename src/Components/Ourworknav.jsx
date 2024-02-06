@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Ourworknav = () => {
   return (
-    <div className='w-full text-black pt-20 '>
+    <div className='w-full text-black pt-20 font-Montserrat'>
         <div className='flex justify-center mt-6'>
             <div className='flex flex-wrap 2xl:flex-row mobile:flex-2 gap-4 2xl:text-xl xl:text-xl mobile:text-sm mobile:gap-1 '>
                 <div><Link to="/Allp"><div className='all bg-gray-100 px-4 py-1 rounded-md mobile:py-3'>All</div></Link></div>
