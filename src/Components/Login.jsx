@@ -5,13 +5,13 @@ import Signup from '../pages/Signup';
 
 const Login = () => {
   return (
-    <div className='pt-20 w-full h-screen bg-gray-200 font-Montserrat'>
+    <div className='pt-20 w-full h-screen font-Montserrat'>
         
-        <div className='flex flex-col justify-center items-center border-4 rounded-md my-6 mobile:mx-8'>
+        <div className='flex flex-col justify-center items-center  rounded-md my-6 mobile:mx-8'>
             {/* <div className='w-20 text-center items-center'>
                 <img src={logo1} size={20} alt="logo" className='' />
             </div> */}
-            <div className='bg-white rounded-md px-8 my-6 py-12'>
+            <div className='bg-white rounded-md px-8 my-6 py-12 border-2'>
                 <p className='text-center font-bold text-xl'>Login</p>
                 <p className='text-center my-3'>Do not have an account yet? <Link to="/signup"> Sign up </Link></p>
                 <input type='text' placeholder='enter email' className='border border-black rounded-md w-full px-4 py-2 focus:bg-gray-100'/>
