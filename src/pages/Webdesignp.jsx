@@ -4,7 +4,7 @@ import Ourworknav from '../Components/Ourworknav'
 
 const Webdesignp = () => {
   return (
-    <div className='w-full h-screen bg-red-200'>
+    <div className='w-full bg-red-50'>
         <Ourworknav />
         <Webdesign />
         
