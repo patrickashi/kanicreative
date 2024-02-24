@@ -3,7 +3,7 @@ import React from 'react'
 const Howitworks = () => {
   return (
     <div className='2xl:mx-10 mobile:ml-4 font-Montserrat'>
-        <div className='mt-4'>
+        <div className='mt-9 mb-12'>
             <h1 className='font-bold text-[40px]'>How it works</h1>
             <p className='mb-6'>Our professional designs help attract your customers and
                 Surpass the competition. We have revolutionalized the design process by making it similar and hassle-free.

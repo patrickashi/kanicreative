@@ -1,17 +1,19 @@
-import React from "react"
-
+import React from 'react'
 
 import { MdOutlineStar } from "react-icons/md";
+import Ourworknav from '../Components/Ourworknav';
 
-const Secone = () => {
-    return ( 
+const Servicesp = () => {
+  return (
         <div className="w-full  bg-black mx-auto py-16 px-4 font-Montserrat">
             <div className="max-w-[1240px] mx-auto grid md:grid-cols-2 text-white mt-10">
                 <div className="md:px-4">
-                    <h1 className="lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold mobile:text-3xl ">What does logo <span className="text-yellow-400">design</span> cost?</h1>
-                    <p className="py-9 text-xl">
-                        Recieve lots of creative contents from our designers
-                        at kani creative. We have 3 fixed plans to suit your project budjet
+                    <h1 className="lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold mobile:text-3xl text-center">Our Services</h1>
+                    <p className="py-9 text-xl text-center">
+                        Our professional designers are dedicated to bringing your vision to life
+                        through innovation and visually captivating designs that leave a long lasting 
+                        impression. Whether it's branding, graphics, or any design need, we're here to help
+                        you achieve the remarkable and set yourself apart in your industry.
                     </p>
                 </div>
 
@@ -32,23 +34,17 @@ const Secone = () => {
                         </select>
                     </div>
 
-                    <div className="flex pt-6 gap-2 ">
-                        <div className="flex ">
-                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
-                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
-                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
-                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
-                            <MdOutlineStar  className=" h-5 text-yellow-500"/>
-                           
-                            
-                        </div>
-                        <p className="text-yellow-500">98% happy customers from</p>
-                    </div>
-                    <p className="py-0 text-yellow-500 ">8425 reviews</p>
+                    
+                    <p className="py-4 my-4 text-xl  text-center">We give you <span className="text-yellow-400">the best design ever</span> </p>
                 </div>
             </div>
+            
+            <diV className="border-t border-gray-700">
+                <p className='text-white mt-9 pt-9 text-2xl text-center'>What do you need us to design?</p>
+            </diV>
+            <Ourworknav />
         </div>
-     );
+  )
 }
- 
-export default Secone;
+
+export default Servicesp

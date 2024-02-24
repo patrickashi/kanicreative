@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
       </div>
       <ul className='hidden mobile:hidden 2xl:flex xl:flex lg:flex md:flex gap-4'>
-        <Link > Services </Link>
+        <Link to="/Servicesp"> Services </Link>
         <Link to=""> Express</Link>
         <Link to="/Howitworksp"> How It Works </Link>
         <Link to="/"> Pricing </Link>
