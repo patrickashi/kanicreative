@@ -43,7 +43,7 @@ const Navbar = () => {
         <Link to="/"> Pricing </Link>
         <Link to="/Ourworkp"> Our Work</Link>
         <Link to="/Aboutp"> About us</Link>
-        <Link to="Dashhome"> -</Link>
+        <Link to="Dashhome"></Link>
         <Link to="/Signup"> Get Started</Link>
       </ul>
       <div className='flex md:flex'>
@@ -73,13 +73,13 @@ const Navbar = () => {
             <img src={logo1} size={20} className='w-20' alt="image" />
           </div>
           <div className='flex flex-col gap-3 py-12 '>
-              <Link > Services </Link>
+              <Link to="/Servicesp"> Services </Link>
               <Link to="" className='my-2'> Express</Link>
               <Link to="/Howitworksp" className='my-2'> How It Works </Link>
               <Link to="/" className='my-2'> Pricing </Link>
               <Link to="/Ourworkp" className='my-2'> Our Work</Link>
               <Link to="/Aboutp" className='my-2'> About us</Link>
-              <Link to="Dashhome" className='my-2'>.</Link>
+              <Link to="Dashhome" className='my-2'></Link>
               <Link to="/Signup" className='my-2'> Get Started</Link>
           </div>
           <div className='flex flex-col '>

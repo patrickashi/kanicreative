@@ -9,7 +9,7 @@ const About = () => {
             <h1 className='py-12 bg-black text-white text-center 2xl:text-6xl xl:text-6xl lg:text-5xl 
             md:text-4xl sm:text:3xl mobile:text-3xl '>ABOUT US!</h1>
 
-            <div className='2xl:mx-16 xl:mx-16 lg:mx-16 my-16 text-xl mobile:mx-4 2xl:text-left xl:text-left
+            <div className='2xl:mx-16 xl:mx-16 lg:mx-16 my-16 text-lg mobile:mx-4 2xl:text-left xl:text-left
             lg:text-left md:text-left mobile:text-center'>
                 <p>
                     We are a ream of creative professionals who are passionate about design and dedicated to
@@ -39,7 +39,7 @@ const About = () => {
             <img src={webdesign2} alt="img" size={20}  className='w-full h-full object-cover' />
         </div>
 
-            <div className='2xl:mx-16 xl:mx-16 lg:mx-16 my-16 text-xl mobile:mx-4 2xl:text-left xl:text-left
+            <div className='2xl:mx-16 xl:mx-16 lg:mx-16 my-16 text-lg mobile:mx-4 2xl:text-left xl:text-left
                             lg:text-left md:text-left mobile:text-center'>
                 <p>
                     We are a ream of creative professionals who are passionate about design and dedicated to
@@ -64,7 +64,7 @@ const About = () => {
                 </p>
             </div>
 
-            <div className='2xl:mx-16 xl:mx-16 lg:mx-16 my-16 py-12 text-xl mobile:mx-4 2xl:text-left xl:text-left
+            <div className='2xl:mx-16 xl:mx-16 lg:mx-16 my-16 py-12 text-lg mobile:mx-4 2xl:text-left xl:text-left
             lg:text-left md:text-left mobile:text-center border-t-2 broder-gray-600'>
                 <h1 className='text-[#059669] text-2xl font-bold'>Our Vision</h1>
                 <p>
