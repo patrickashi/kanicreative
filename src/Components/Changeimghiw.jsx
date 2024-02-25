@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import k from "../assets/k.png";
 import yantex from "../assets/yantex.png";
+import five from "../assets/five.jpg";
 
 const Changeimghiw = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [k, yantex];
+    const images = [k, yantex, five];
 
     useEffect( () => {
         const interval = setInterval( () => {
