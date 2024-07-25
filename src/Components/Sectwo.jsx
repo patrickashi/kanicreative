@@ -14,8 +14,8 @@ const Sectwo = () => {
                     <div className=" py-12 border max-w-[500px] shadow-lg rounded-3xl pb-1 px-0 hover:scale-105 ease duration-300">
                         {/* card */}
                         <p className="text-center text-bold text-3xl text-[#059669]">Starter</p>
-                        <p className="text-center text-bold text-3xl text-[#ca8a04]">$100</p>
-                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
+                        <p className="text-center text-bold text-3xl text-[#fbbf24]">$100</p>
+                        <p className="border-b-4 py-4 border-[#fbbf24] text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
                         <p className="py-4 text-center text-xl">What you get with starter:</p>
                         <ul className="px-10 text-center">
                             <div className="flex gap-2 ">
@@ -69,8 +69,8 @@ const Sectwo = () => {
                     <div className="border-4 max-w-[500px] py-12 shadow-lg rounded-3xl pb-1 px-0 hover:scale-105 ease duration-300">
                         {/* card */}
                         <p className="text-center text-bold text-3xl text-[#059669]">Growth</p>
-                        <p className="text-center text-bold text-3xl text-[#ca8a04]">$100</p>
-                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
+                        <p className="text-center text-bold text-3xl text-[#fbbf24]">$100</p>
+                        <p className="border-b-4 py-4 border-[#fbbf24] text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
                         <p className="py-4 text-center text-xl">What you get with starter:</p>
                         <ul className="px-10 text-center">
                         <div className="flex gap-2">
@@ -125,8 +125,8 @@ const Sectwo = () => {
                     <div className="py-12 border max-w-[500px] shadow-lg rounded-3xl pb-1 px-0 hover:scale-105 ease duration-300">
                         {/* card */}
                         <p className="text-center text-bold text-3xl text-[#059669]">Business</p>
-                        <p className="text-center text-bold text-3xl text-[#ca8a04]">$100</p>
-                        <p className="border-b-4 py-4 border-yellow-500 text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
+                        <p className="text-center text-bold text-3xl text-[#fbbf24]">$100</p>
+                        <p className="border-b-4 py-4 border-[#fbbf24] text-center text-bold text-xl mx-3 md:text-xl">Kick Start your Business Today!</p>
                         <p className="py-4 text-center text-xl">What you get with starter:</p>
                         <ul className="px-10 text-center">
                         <div className="flex gap-2">
