@@ -17,8 +17,8 @@ const Changeimg = () => {
 
 
   return (
-    <div className=' flex justify-center items-center w-full h-100'>
-        <img src={images[currentImageIndex]} alt="img" className='w-full h-[500px] object-cover object-center' />
+    <div className=' flex justify-center items-center w-full h-[400px]'>
+        <img src={images[currentImageIndex]} alt="img" className='w-full h-[400px] object-cover object-center 2xl:object-left' />
     </div>
 
           // <div className='relative'>

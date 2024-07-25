@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='flex w-full font-Montserrat justify-between items-center h-20 px-4 absolute bg-black z-10 text-white'>
+    <div className='flex w-full font-Montserrat justify-between items-center h-20 px-4 fixed bg-black z-10 text-white'>
       <div className='2xl:ml-16 xl:ml-16 lg:ml-10'>
         <Link to="/">
           <img className='text-white bg-white w-20 md:ml-3 ' size={20} src={logo1} alt="/" />
